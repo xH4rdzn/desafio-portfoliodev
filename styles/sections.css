@@ -1,0 +1,44 @@
+#projetos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 72px 120px 144px;
+
+  .subtitle {
+    text-align: center;
+    color: var(--red);
+  }
+
+  .title-md {
+    text-align: center;
+  }
+
+  .grid {
+    margin-top: 56px;
+    gap: 24px;
+  }
+
+  .card-works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px;
+    background-color: var(--gray-300);
+    border-radius: 12px;
+
+    img {
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    h4 {
+      color: var(--gray-600);
+      margin-bottom: 8px;
+    }
+
+    p {
+      color: var(--gray-500);
+    }
+  }
+}

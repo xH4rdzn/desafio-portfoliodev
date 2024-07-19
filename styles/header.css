@@ -1,0 +1,68 @@
+header{
+  background: url(../assets/Background_Intro.png) lightgray 50% / cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 0 163px 57px;
+
+  .seta {
+    display: flex;
+    justify-content: center;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+    margin: 120px auto 94px;
+
+    .info-text {
+      max-width: 680px;
+      text-align: center;
+
+      .subtitle {
+        color: var(--gray-500);
+        margin-bottom: 8px;
+    
+        span {
+          color: var(--red);
+        }
+      } 
+
+      .title-lg {
+        color: var(--gray-600);
+        margin-bottom: 20px;
+        font: var(--title-lg);
+      }
+  
+      .text-sm {
+        color: var(--gray-400);
+        text-align: center;
+        margin-bottom: 80px;
+      }
+    }
+  }
+
+  .techs {
+    margin-top: -80px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 94px;
+
+    .card {
+      display: flex;
+      align-items: center;
+      background-color: var(--gray-300);
+      color: var(--gray-500);
+      padding: 8px 16px;
+      border-radius: 999px;
+      gap: 8px;
+
+      p {
+        font: var(--text-md);
+      }
+
+    }
+  }
+}
