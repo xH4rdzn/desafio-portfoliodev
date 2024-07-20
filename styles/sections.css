@@ -1,10 +1,4 @@
-#projetos {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 72px 120px 144px;
-
+section header {
   .subtitle {
     text-align: center;
     color: var(--red);
@@ -13,6 +7,14 @@
   .title-md {
     text-align: center;
   }
+}
+
+#projetos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 72px 120px 144px;
 
   .grid {
     margin-top: 56px;
@@ -39,6 +41,104 @@
 
     p {
       color: var(--gray-500);
+    }
+
+    &:hover {
+      border: 1.5px solid var(--gray-400);
+    }
+  }
+}
+
+#services {
+  background-color: var(--gray-100);
+  padding: 88px 120px 120px;
+
+  .services {
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+    .service-card {
+      padding: 20px;
+      border: 2px solid var(--gray-200);
+      border-radius: 12px;
+
+      img {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 20px;
+      }
+
+      .title-sm {
+        color: var(--gray-600);
+        margin-bottom: 8px;
+      }
+
+      .text-sm {
+        color: var(--gray-500);
+      }
+    }
+  }
+}
+
+#contato {
+  background-image: url(../assets/Background_Contacts.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 128px 120px 200px;
+  display: flex;
+
+  header {
+    /* margin-top: 128px; */
+
+    .subtitle {
+      color: var(--purple);
+    }
+
+    .title-md {
+      color: var(--gray-600);
+    }
+
+    .text-md {
+      text-align: center;
+      color: var(--gray-500);
+      margin-bottom: 48px;
+    }
+  }
+
+  .social-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* margin-bottom: 200px; */
+
+    .social-text {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--gray-500);
+
+      img {
+        width: 28px;
+        height: 28px;
+      }
+    }
+  
+    .social-btn {
+      max-width: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      border-radius: 8px;
+      background-color: var(--gray-300);
+      cursor: pointer;
+
+      &:hover {
+        border: 1.5px solid var(--blue);
+      }
     }
   }
 }

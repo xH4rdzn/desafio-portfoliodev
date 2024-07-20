@@ -1,4 +1,4 @@
-header{
+#header {
   background: url(../assets/Background_Intro.png) lightgray 50% / cover no-repeat;
   display: flex;
   flex-direction: column;

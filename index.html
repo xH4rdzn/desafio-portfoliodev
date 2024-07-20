@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,700;1,700&family=Inconsolata&family=Maven+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <header id="header">
     <div class="container">
       <div class="info">
         <div class="avatar">
@@ -66,8 +66,10 @@
   <main>
     <section id="projetos">
       <div class="container">
-        <h3 class="subtitle">Meu trabalho</h3>
-        <h2 class="title-md">Veja os projetos em destaque</h2>
+        <header>
+          <h3 class="subtitle">Meu trabalho</h3>
+          <h2 class="title-md">Veja os projetos em destaque</h2>
+        </header>
 
         <div class="grid grid-col-3 grid-row-2">
           <div class="card-works">
@@ -107,6 +109,81 @@
             <h4 class="title-sm">Página de turismo</h4>
             <p class="text-sm">Página com as principais informações para quem quer viajar para Busan</p>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <header>
+          <h3 class="subtitle">Meus serviços</h3>
+          <h2 class="title-md">Como posso ajudar o seu negócio</h2>
+        </header>
+
+        <div class="services">
+          <div class="service-card">
+            <img src="./assets/icons/Devices.svg" alt="">
+            <h4 class="title-sm">Websites e Aplicativos</h4>
+            <p class="text-sm">Desenvolvimento de interfaces</p>
+          </div>
+
+          <div class="service-card">
+            <img src="./assets/icons/HardDrives.svg" alt="">
+            <h4 class="title-sm">API e banco de dados</h4>
+            <p class="text-sm">Criação de serviços do sistema </p>
+          </div>
+
+
+          <div class="service-card">
+            <img src="./assets/icons/Infinity.svg" alt="">
+            <h4 class="title-sm">DevOps</h4>
+            <p class="text-sm">Gestão e infraestrutura da aplicação</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="container">
+        <header>
+          <h3 class="subtitle">Contato</h3>
+          <h2 class="title-md">Gostou do meu trabalho?</h2>
+          <p class="text-md">Entre em contato ou acompanhe as minhas redes sociais!</p>
+        </header>
+
+        <div class="social-container">
+          <a href="#" class="social-btn">
+            <div class="social-text">
+              <img src="./assets/icons/LinkedinLogo.svg" alt="" />
+              Linkedin
+            </div>
+            <img src="./assets/icons/ArrowUpRight.svg" alt="">
+          </a>
+
+          <a href="#" class="social-btn">
+            <div class="social-text">
+              <img src="./assets/icons/InstagramLogo.svg" alt="" />
+              Instagram
+            </div>
+            <img src="./assets/icons/ArrowUpRight.svg" alt="">
+          </a>
+
+          <a href="#" class="social-btn">
+            <div class="social-text">
+              <img src="./assets/icons/GithubLogo.svg" alt="" />
+              GitHub
+            </div>
+            <img src="./assets/icons/ArrowUpRight.svg" alt="">
+          </a>
+
+          <a href="#" class="social-btn">
+            <div class="social-text">
+              <img src="./assets/icons/EnvelopeSimple.svg" alt="" />
+              E-mail
+            </div>
+            <img src="./assets/icons/ArrowUpRight.svg" alt="">
+          </a>
+
         </div>
       </div>
     </section>
